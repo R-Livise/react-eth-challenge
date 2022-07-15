@@ -4,7 +4,6 @@ import '../styles/components/Header.styl';
 
 function Header({ myself, children }) {
   const [theme, changeTheme] = useTheme();
-  console.log(myself);
   const { image, name, position, phone, email, web, city, country } = myself;
 
   return (
